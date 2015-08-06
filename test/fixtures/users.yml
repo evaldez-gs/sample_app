@@ -1,1 +1,5 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+enrique:
+  name: Enrique Sanchez
+  email: evaldez@guidespark.com
+  password_digest: <%= User.digest('password') %>
