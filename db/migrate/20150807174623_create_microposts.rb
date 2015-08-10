@@ -6,6 +6,6 @@ class CreateMicroposts < ActiveRecord::Migration
 
       t.timestamps null: false
     end
-    add_foreign_key :microposts, [:users, :created_at]
+    add_foreign_key :microposts, [:user, :created_at]
   end
 end
